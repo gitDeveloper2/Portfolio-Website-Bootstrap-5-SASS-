@@ -9,3 +9,8 @@
   left: 50%;
   tansform:translate(-50%,-50%);
 }
+//TRANSITION
+@mixin transition-property{
+  transition-duration: 1000ms;
+  transition-property: all;
+}
